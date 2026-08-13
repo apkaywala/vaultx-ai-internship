@@ -1,0 +1,21 @@
+# Environment variables (NEVER commit real secrets)
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs / temp
+*.log
+.cache/
